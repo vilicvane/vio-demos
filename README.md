@@ -14,7 +14,7 @@ npm install typescript tsd -g
 npm install vio express consolidate handlebars --save
 
 # install typings.
-tsd install express consolidate
+tsd install express consolidate core-js
 
 # compile typescript.
 tsc
