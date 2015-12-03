@@ -16,7 +16,9 @@ npm install vio express consolidate handlebars --save
 # install typings.
 tsd install express consolidate core-js
 
-# compile typescript.
+# pretend you are doing some development.
+
+# compile source files with typescript compiler.
 tsc
 
 # start node server.
