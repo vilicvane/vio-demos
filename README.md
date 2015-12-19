@@ -1,28 +1,28 @@
-# VIO Minimum Demo
+# Demos for VIO
+
+## To Try A Demo
+
+Install TypeScript compiler:
 
 ```sh
-# clone this repo.
-git clone https://github.com/vilic/vio-minimum-demo.git
+npm install -g typescript
+```
 
-# cd to the demo folder.
-cd vio-minimum-demo
+Compile a demo and run:
 
-# install tsc and tsd command line tools.
-npm install typescript tsd -g
+```sh
+cd [demo-folder]
 
-# install dependencies.
-npm install vio express consolidate handlebars --save
+# install dependencies:
+npm install
 
-# install typings.
-tsd install express consolidate core-js
-
-# pretend you are doing some development.
-
-# compile source files with typescript compiler.
+# compile demo:
 tsc
 
-# start node server.
+# start server.
 node bld/server.js
-
-# now visit http://localhost:1337/.
 ```
+
+## License
+
+MIT License.

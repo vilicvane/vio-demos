@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "VIO Demo",
+  "author": "vilicvane",
+  "license": "MIT",
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "express": "^4.13.3",
+    "handlebars": "^4.0.5",
+    "thenfail": "^0.3.17",
+    "vio": "~0.2.0"
+  }
+}

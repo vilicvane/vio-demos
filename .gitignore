@@ -1,2 +1,4 @@
-/node_modules/
-/bld/
+bld/
+node_modules/
+
+.*
