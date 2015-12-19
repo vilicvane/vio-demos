@@ -19,7 +19,7 @@ npm install
 # compile demo:
 tsc
 
-# start server.
+# start server:
 node bld/server.js
 ```
 
