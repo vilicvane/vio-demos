@@ -1,10 +1,10 @@
-import { Controller, Request, get } from 'vio';
+import { Controller, get } from 'vio';
 
-export default class Hello extends Controller {
+export default class extends Controller {
     // http://localhost:1337/
     // http://localhost:1337/desktop
     @get()
-    default(req: Request<any>) {
+    default() {
         return {
             title: 'Hello, World!',
             text: 'hello! thank you! thank you very much!'

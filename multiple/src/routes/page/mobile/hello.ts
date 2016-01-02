@@ -1,6 +1,6 @@
 import { Controller, Request, get } from 'vio';
 
-export default class Hello extends Controller {
+export default class extends Controller {
     // http://localhost:1337/mobile/hello/world/abc
     @get({
         path: 'world/:param?'

@@ -9,8 +9,13 @@ let app = express();
 
 app.engine('hbs', handlebars);
 
-let router = new Router(app, {
-    routesRoot: Path.join(__dirname, 'routes'),
+let apiRouter = new Router(app, {
+    routesRoot: Path.join(__dirname, 'routes/api'),
+    prefix: '/api'
+});
+
+let pageRouter = new Router(app, {
+    routesRoot: Path.join(__dirname, 'routes/page'),
     viewsRoot: Path.join(__dirname, '../views'),
     defaultSubsite: 'desktop',
     viewsExtension: '.hbs'
